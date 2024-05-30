@@ -19,3 +19,6 @@ function 최대공약수(a, b) {
 }
 
 5. while(true)는 무한 반복을 의미. 이 반복문은 조건이 만족될 때까지 계속 실행.
+
+6. numbers배열의 합 구하기
+const sum = numbers.reduce((acc, curr) => acc + curr)
