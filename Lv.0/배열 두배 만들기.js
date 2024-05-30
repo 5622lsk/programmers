@@ -7,8 +7,7 @@ function solution(numbers) {
 }
 console.log(solution([1, 2, 3, 4]));
 
-//다른사람 풀이
-
+//다른 풀이1
 function solution2(numbers) {
   return numbers.reduce((a, b) => [...a, b * 2], []);
 }

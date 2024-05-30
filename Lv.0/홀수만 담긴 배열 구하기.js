@@ -9,6 +9,6 @@ function solution(n) {
 }
 console.log(solution(30));
 
-//다른 풀이
+//다른 풀이1
 const solution2 = (n) =>
   Array.from({ length: n }, (_, i) => i + 1).filter((i) => i % 2 !== 0);

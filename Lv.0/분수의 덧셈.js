@@ -26,7 +26,7 @@ function solution(numer1, denom1, numer2, denom2) {
   return [reducedNumer, reducedDenom];
 }
 
-//다른 풀이
+//다른 풀이1
 function fnGCD(a, b) {
   return a % b ? fnGCD(b, a % b) : b;
 }
