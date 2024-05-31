@@ -13,3 +13,4 @@ console.log(solution([1, 2, -4, -8, 10]));
 function solution2(array) {
   return array.sort((a, b) => a - b)[Math.floor(array.length / 2)];
 }
+//

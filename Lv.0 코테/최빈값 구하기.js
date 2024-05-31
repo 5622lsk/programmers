@@ -35,7 +35,7 @@ function solution(array) {
   }
 }
 
-//다른 풀이1
+//다른 풀이
 function solution2(array) {
   let m = new Map();
   for (let n of array) m.set(n, (m.get(n) || 0) + 1);
