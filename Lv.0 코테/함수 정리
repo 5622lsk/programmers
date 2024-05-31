@@ -26,3 +26,10 @@ const sum = numbers.reduce((acc, curr) => acc + curr)
 7.배열 뒤집기: reverse() 메소드는 배열의 원소 순서를 뒤집습니다.
 array=[1,2,3,4]
 array.reverse();
+
+8.문자열을 배열로:
+    -split(''): 문자열.split('')
+    -스프레드 문법: [...문자열]
+
+9.배열을 문자열로:
+    join(''): 배열.join('')
