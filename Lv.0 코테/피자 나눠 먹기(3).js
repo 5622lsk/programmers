@@ -6,3 +6,4 @@ return 하도록 solution 함수를 완성해보세요. */
 function solution(slice, n) {
   return Math.ceil(n / slice);
 }
+//

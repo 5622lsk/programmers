@@ -5,3 +5,4 @@ function solution(numbers) {
   const sum = numbers.reduce((acc, curr) => acc + curr); //배열의 합
   return sum / numbers.length;
 }
+//
