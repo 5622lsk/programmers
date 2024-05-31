@@ -22,3 +22,7 @@ function 최대공약수(a, b) {
 
 6. numbers배열의 합 구하기
 const sum = numbers.reduce((acc, curr) => acc + curr)
+
+7.배열 뒤집기: reverse() 메소드는 배열의 원소 순서를 뒤집습니다.
+array=[1,2,3,4]
+array.reverse();
