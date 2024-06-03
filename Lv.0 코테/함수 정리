@@ -48,3 +48,6 @@ array.reverse();
                 reduce((acc,cur)=>acc+cur.repeat(2),'')
                 결과: aabbcc
 
+13. 틸드문법 ~~: 소숫점 아래는 버림.
+                ~~(-5.8)는 -5를 반환.
+                ~~7는 7을 반환합니다.
