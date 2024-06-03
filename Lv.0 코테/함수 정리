@@ -29,7 +29,22 @@ array.reverse();
 
 8.문자열을 배열로:
     -split(''): 문자열.split('')
+     my_string.split('p') (my_string = "apple"일 경우)
+     결과:["a","l","e"]
+
     -스프레드 문법: [...문자열]
 
-9.배열을 문자열로:
+9.문자열 대치 함수: my_string.replaceAll("p", "") 
+                결과: "ale"
+
+10.배열을 문자열로:
     join(''): 배열.join('')
+
+11.map 함수: 각 문자를 n번 반복하여 새로운 배열 생성.
+            map((v)=>v.repeat(2))
+            결과: [aa,bb,cc]
+
+12.reduce 함수: 각 문자를 n번 반복하여 누적된 문자열에 추가.
+                reduce((acc,cur)=>acc+cur.repeat(2),'')
+                결과: aabbcc
+

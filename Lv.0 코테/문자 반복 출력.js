@@ -4,7 +4,10 @@ return 하도록 solution 함수를 완성해보세요.
  */
 
 function solution(my_string, n) {
-  return my_string.split("").reduce((acc, cur) => acc + cur.repeat(n), "");
+  return my_string
+    .split("")
+    .map((t) => t.repeat(n))
+    .join("");
 }
 
 //다른풀이
