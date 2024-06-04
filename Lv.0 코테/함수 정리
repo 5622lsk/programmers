@@ -31,7 +31,7 @@ array.reverse();
 8.문자열을 배열로:
     -split(''): 문자열.split('')
      my_string.split('p') (my_string = "apple"일 경우)
-     결과:["a","l","e"]
+     결과:["a","le"]
 
     -스프레드 문법: [...문자열]
 
