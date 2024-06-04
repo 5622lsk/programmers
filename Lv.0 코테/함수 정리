@@ -54,3 +54,6 @@ array.reverse();
 
 14.filter : 배열의 각 요소에서 조건을 만족하는 요소들로 이루어진 배열 반환.
             array.filter(num => num % 2 === 0);
+
+15.slice(start, end+1): 해당 범위의 배열 추출.
+    (end + 1은 slice 메서드가 종료 인덱스를 포함하지 않기 때문)
