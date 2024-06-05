@@ -42,7 +42,7 @@ array.reverse();
     join(''): 배열.join('')
 
 11.map 함수: 각 문자를 n번 반복하여 새로운 배열 생성.
-            map((v)=>v.repeat(2))
+            map(v => v.repeat(2))
             결과: [aa,bb,cc]
 
 12.reduce 함수: 각 문자를 n번 반복하여 누적된 문자열에 추가.
@@ -54,7 +54,26 @@ array.reverse();
                 ~~7는 7을 반환합니다.
 
 14.filter : 배열의 각 요소에서 조건을 만족하는 요소들로 이루어진 배열 반환.
-            array.filter(num => num % 2 === 0);
+            array.filter((v)=> !isNaN(v));
 
 15.slice(start, end+1): 해당 범위의 배열 추출.
     (end + 1은 slice 메서드가 종료 인덱스를 포함하지 않기 때문)
+
+16. Number(): 문자열을 숫자로 변환.
+              Number('5') => 5
+
+17.isNaN(): 주어진 값이 숫자인지 판별
+            isNaN(123) => false
+            isNaN('123') => false
+            isNaN("") => false //빈문자열은 0
+            isNaN(사과) => true
+            
+
+18. 문자열 순회 구문
+    const my_string = "hi"; 
+    for (let char of my_string) {
+    console.log(char);
+    }
+    // 출력:
+    // h
+    // i
