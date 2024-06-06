@@ -19,7 +19,7 @@ function solution(rsp) {
 }
 
 //디른풀이
-//각 대응되는게 있으면 객체를 사용
+//각 대응되는게 있으면 객체를 사용!!
 function solution2(rsp) {
   let arr = {
     2: 0,
