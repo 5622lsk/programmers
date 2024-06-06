@@ -22,6 +22,6 @@ function solution(age) {
 function solution2(age) {
   let char = "abcdefghij";
   return Array.from(age.toString())
-    .map((t) => char[+t])
+    .map((t) => char[+t]) //+t는 문자열 t를 숫자로 변환
     .join("");
 }

@@ -93,3 +93,14 @@ array.reverse();
 
 23. String(23): 문자열로 변환 결과: '23'
     =toString()
+
+24. sort: 배열 요소 정렬
+    오름차순 정렬: numbers.sort((a, b) => a - b)
+    내림차순 정렬: numbers.sort((a, b) => b - a)
+
+25. isInteger(): 정수인지 여부를 확인
+    isInteger(4)   // true
+    isInteger(4.5)  // false
+    isInteger('4')  // false
+
+26. Math.sqrt(25): 제곱근 반환. // 5
