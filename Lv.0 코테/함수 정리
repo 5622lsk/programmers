@@ -104,3 +104,10 @@ array.reverse();
     isInteger('4')  // false
 
 26. Math.sqrt(25): 제곱근 반환. // 5
+
+27.includes(): 배열이나 문자열에서 특정 요소나 문자열이 포함되어 있는지 확인.
+    const str = "Hello, world!";   
+    console.log(str.includes("world"));   // true
+    console.log(str.includes("world", 8));// false (인덱스 8부터 검색 시작)
+
+    
