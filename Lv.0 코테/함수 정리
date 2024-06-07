@@ -110,4 +110,6 @@ array.reverse();
     console.log(str.includes("world"));   // true
     console.log(str.includes("world", 8));// false (인덱스 8부터 검색 시작)
 
-    
+
+29.Math.pow(a,b) : a의b제곱 연산.
+    = a**b
