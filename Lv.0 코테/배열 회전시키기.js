@@ -18,7 +18,7 @@ function solution(numbers, direction) {
   return numbers;
 }
 
-//
+//삼항연산자로
 function solution2(numbers, direction) {
   direction === "right"
     ? numbers.unshift(numbers.pop())
