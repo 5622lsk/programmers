@@ -15,14 +15,14 @@ function solution(my_string) {
   return sum;
 }
 
-//다른풀이
+//다른풀이1
 function solution2(my_string) {
   return [...my_string]
     .filter((v) => !isNaN(v))
     .reduce((acc, curr) => acc + Number(curr), 0);
 }
 
-//다른풀이
+//다른풀이2
 function solution3(my_string) {
   return my_string
     .replaceAll(/[^\d]/g, "")
