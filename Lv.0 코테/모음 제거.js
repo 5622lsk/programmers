@@ -6,12 +6,13 @@ return하도록 solution 함수를 완성해주세요.
 제한사항
 my_string은 소문자와 공백으로 이루어져 있습니다.
 1 ≤ my_string의 길이 ≤ 1,000 */
+
 function solution(my_string) {
   var 모음 = ["a", "e", "i", "o", "u"];
   return [...my_string].filter((v) => !모음.includes(v)).join("");
 }
 
-//정규표현식 사용
+//정규표현식 사용하기
 function solution2(my_string) {
   return my_string.replace(/[aeiou]/g, "");
 }
