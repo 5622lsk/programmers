@@ -24,14 +24,17 @@ function solution(n) {
 
 //다른풀이
 function solution2(n) {
-  return Array(n)
-    .fill()
-    .map((_, i) => i + 1)
-    .filter((i) => {
-      let cnt = 0;
-      for (let j = 1; j <= i; j++) {
-        if (i % j === 0) cnt++;
-      }
-      return cnt >= 3;
-    }).length;
+  return (
+    Array(n)
+      .fill()
+      //map((_, i) => i + 1): 배열의 각 요소를 1부터 n까지의 숫자로 변환합니다. 이 과정에서 인덱스를 사용하여 1씩 증가
+      .map((_, i) => i + 1)
+      .filter((i) => {
+        let cnt = 0;
+        for (let j = 1; j <= i; j++) {
+          if (i % j === 0) cnt++;
+        }
+        return cnt >= 3;
+      }).length
+  );
 }
