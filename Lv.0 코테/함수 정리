@@ -129,3 +129,35 @@ array.reverse();
     -unshift(): 배열의 시작 부분에 하나 이상의 요소를 추가하고, 새 배열의 길이를 반환.
         [1, 2].unshift(0) 호출 시 배열은 [0, 1, 2]이 되며, 반환값은 3
 
+
+32. Set 객체: 중복되지 않는 값들을 저장할 수 있는 객체
+    const mySet = new Set();
+    값 추가
+    mySet.add(1);
+    mySet.add(5);
+    mySet.add(1);  // 중복된 값은 추가되지 않음
+
+    값 확인
+    console.log(mySet.has(1));  // true
+    console.log(mySet.has(2));  // false
+
+    값 삭제
+    mySet.delete(5);
+    console.log(mySet.has(5));  // false
+
+
+
+
+
+
+
+//반복문//
+forEach: 배열을 순회할 때 사용. 간결하고 가독성이 좋으나 반복을 중간에 종료할 수 없음.
+for: 조건에 따라 반복해야 하는 모든 경우에 사용. 초기화, 조건 검사, 증감식을 명확하게 제어할 수 있으며, 중간에 반복을 종료할 수 있음.
+while: 조건에 따라 반복해야 하는 경우에 사용. 조건에 따라 반복을 유연하게 제어할 수 있으며, 중간에 반복을 종료할 수 있음.
+배열 순회 시 forEach가 간편할 수 있으며, 복잡한 조건이 있는 반복 작업에는 for 또는 while을 사용하는 것이 좋다.
+
+
+
+
+
