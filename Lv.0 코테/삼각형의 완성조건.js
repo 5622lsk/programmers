@@ -17,6 +17,7 @@ function solution(sides) {
     return 2;
   }
 }
+
 //삼항연산자로
 function solution2(sides) {
   const [long, a, b] = sides.sort((a, b) => b - a);
@@ -31,6 +32,5 @@ function solution3(sides) {
   const sum = sides.reduce((acc, cur) => acc + cur, 0) - max;
 
   answer = max < sum ? 1 : 2;
-
   return answer;
 }
