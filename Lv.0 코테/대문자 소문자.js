@@ -4,7 +4,7 @@
 function solution(my_string) {
   return [...my_string]
     .map((char) => {
-      if (char == char.toUpperCase()) {
+      if (char === char.toUpperCase()) {
         return char.toLowerCase();
       } else {
         return char.toUpperCase();
@@ -13,6 +13,7 @@ function solution(my_string) {
     .join("");
 }
 
+//다른풀이
 function solution2(my_string) {
   var answer = "";
   for (let c of my_string)
