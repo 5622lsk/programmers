@@ -18,7 +18,7 @@ function solution(sides) {
   }
 }
 
-//삼항연산자로
+//삼항연산자
 function solution2(sides) {
   const [long, a, b] = sides.sort((a, b) => b - a);
 
