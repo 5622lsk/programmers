@@ -19,6 +19,7 @@ function solution(cipher, code) {
   return result;
 }
 
+//다른 풀이
 function solution2(cipher, code) {
   return cipher
     .split("")
