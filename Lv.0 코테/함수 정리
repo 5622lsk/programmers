@@ -67,6 +67,7 @@ array.reverse();
 
 16.Number(): 문자열을 숫자로 변환.
               Number('548') => 548
+              +문자열 => 숫자로 변환
 
 17.isNaN(): 주어진 값이 숫자인지 판별
             isNaN(123) => false
