@@ -11,3 +11,9 @@ function solution(array) {
   let index = array.indexOf(maxNum);
   return [maxNum, index];
 }
+
+//다른풀이
+function solution2(array) {
+  let max = Math.max(...array);
+  return [max, array.indexOf(max)];
+}
