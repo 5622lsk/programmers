@@ -3,6 +3,6 @@
 편지를 가로로만 적을 때, 축하 문구 message를 적기 위해 필요한 편지지의 최소 가로길이를
 return 하도록 solution 함수를 완성해주세요. */
 
-function solution(message) {
+function solution1(message) {
   return message.length * 2;
 }
