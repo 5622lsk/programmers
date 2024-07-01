@@ -148,11 +148,9 @@ array.reverse();
     mySet.delete(5);
     console.log(mySet.has(5));  // false
 
-
-
-
-
-
+31. eval(): 문자열로 표현된 코드 실행
+    const result = eval('3 + 5');
+    console.log(result); // 출력: 8
 
 //반복문//
 forEach: 배열을 순회할 때 사용. 간결하고 가독성이 좋으나 반복을 중간에 종료할 수 없음.
