@@ -4,3 +4,5 @@
 -50,000 ≤ num1 ≤ 50,000
 -50,000 ≤ num2 ≤ 50,000 """
 
+def solution(num1, num2):
+    return num1+num2
