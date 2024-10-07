@@ -6,3 +6,6 @@
 
 def solution(num1, num2):
     return num1+num2
+
+print(solution(10, 20))  # 예상 출력: 30
+print(solution(-50000, 50000))  # 예상 출력: 0
