@@ -1,1 +1,7 @@
-최대공약수 : math.gcd()
+최대공약수: math.gcd()
+배열의 길이: len()
+오름차순 정렬
+my_list.sort()
+  
+내림차순 정렬
+my_list.sort(reverse=True)
