@@ -13,3 +13,5 @@
 6. 빈도수를 내림차순으로 정렬한 리스트
     most_common = counter.most_common()
     print(most_common)  # 출력: [(3, 3), (2, 2), (1, 1)]
+
+7.배열뒤집기: [::-1]
