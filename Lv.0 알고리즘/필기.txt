@@ -14,4 +14,7 @@
     most_common = counter.most_common()
     print(most_common)  # 출력: [(3, 3), (2, 2), (1, 1)]
 
-7.배열뒤집기: [::-1]
+7. 배열뒤집기: [::-1]
+
+8. 문자열로 변환: str()  (ex. 23->"23")
+    정수로 변환: int()   (ex. "23"->23)
