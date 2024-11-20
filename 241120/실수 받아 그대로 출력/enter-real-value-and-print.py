@@ -1,2 +1,2 @@
 n = float(input())
-print(floor.n)
+print(round(n,2))
