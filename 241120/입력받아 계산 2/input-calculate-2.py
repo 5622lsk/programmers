@@ -1,3 +1,2 @@
-a=int(input())
-b=int(input())
-print(a*b)
+arr = input().split()
+print(int(arr[0]*int(arr[1])))
