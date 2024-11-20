@@ -1,4 +1,4 @@
 a=float(input())
 b=float(input())
 hap=a+b
-print(round(hap,3))
+print(hap:.2f)
