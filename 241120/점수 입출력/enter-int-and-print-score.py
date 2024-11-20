@@ -1,2 +1,2 @@
-n = int(print())
-print(f"Your scoree is {n} point")
+n = int(input())
+print(f"Your score is {n} point")
