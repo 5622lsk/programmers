@@ -1,2 +1,2 @@
 a,b= int(input()).split()
-print(a,b,a+b)
+print(a, b, a+b)
