@@ -1,3 +1,3 @@
 a = input()
-a,b,c = map(int,a.split("-"))
+a,b,c = a.split("-")
 print(f"{a}-{c}-{b}")
