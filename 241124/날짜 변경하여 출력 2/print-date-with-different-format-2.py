@@ -1,3 +1,3 @@
 date=input()
 mm,dd,yyyy=date.split("-")
-print(f"{yyyy}.{dd}.{mm}")
+print(f"{yyyy}.{mm}.{dd}")
