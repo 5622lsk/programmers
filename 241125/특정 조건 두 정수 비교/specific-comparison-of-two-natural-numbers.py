@@ -1,11 +1,9 @@
-a,b = map(int,input().split())
+a, b = map(int, input().split())
 
-if a<b:
-    print("1",end=" ")
-else:
-    print("0")
+# 첫 번째 조건 결과
+first_result = 1 if a < b else 0
+# 두 번째 조건 결과
+second_result = 1 if a == b else 0
 
-if a==b:
-    print("1")
-else:
-    print("0")
+# 한 줄로 출력
+print(first_result, second_result)
