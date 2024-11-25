@@ -8,5 +8,5 @@ elif a >=80:
     print("C")
 elif a >=80:
     print("D")
-
-print("F")
+else:
+    print("F")
