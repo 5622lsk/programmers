@@ -1,3 +1,5 @@
+import math
+
 h, w = map(int, input().split())
 b = (1000*w)/(h**2)
 b2 = math.floor(b)
