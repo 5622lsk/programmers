@@ -1,2 +1,3 @@
 a = input()
-a == 100 if "pass" else "failure"
+result = "pass" if a == 100 else "failure"
+print(result)
