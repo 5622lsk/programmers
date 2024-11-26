@@ -1,4 +1,4 @@
 n = int(input())
 
-for i in range(n,5,n)
-print(i, end=" ")
+for i in range(4)
+print(n*(i+1), end=" ")
