@@ -1,7 +1,7 @@
 # 두 정수 입력받기
 a, b = map(int, input().split())
 
-print(f"a//b.", end="")
+print(f"{a//b}.", end="")
 
 a%=b
 for _ in range(20):
