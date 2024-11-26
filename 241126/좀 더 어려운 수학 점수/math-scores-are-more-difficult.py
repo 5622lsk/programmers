@@ -8,5 +8,5 @@ elif a_m<b_m:
 else:
     if a_e>b_e:
         print("A")
-    else: a_e<b_e:
+    else:
         print("B")
