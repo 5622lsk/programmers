@@ -1,5 +1,5 @@
 sex = int(input())
-age = int(inut())
+age = int(input())
 
 if sex==0 and age>=19:
     print("MAN")
