@@ -1,4 +1,4 @@
 i = 10
 while i<=26:
-    print(i)
+    print(i, end=" ")
     i += 1
