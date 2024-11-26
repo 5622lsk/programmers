@@ -1,4 +1,4 @@
-b, a = map9(int, input().split())
+b, a = map(int, input().split())
 
 i = b
 while i <= a:
