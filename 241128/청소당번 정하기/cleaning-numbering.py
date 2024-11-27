@@ -5,7 +5,7 @@ count3 = 0
 n = int(input())
 
 for _ in range(n):
-    if num % 12 == 0 and num % 5 == 0:
+    if num % 12 == 0:
         count += 1
     elif num % 3 == 0:
         count2 += 1
