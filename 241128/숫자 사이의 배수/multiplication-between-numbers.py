@@ -7,6 +7,5 @@ for i in range(a, b+1):
         sum += i
         cnt+=1
 
-avg == round(sum/cnt, 1) if cnt > 0 else 0
-
+avg = round(sum/cnt, 1)
 print(sum, avg)
