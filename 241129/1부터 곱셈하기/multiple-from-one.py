@@ -1,16 +1,10 @@
-# 입력받기
+# 변수 선언 및 입력
 n = int(input())
+prod = 1
 
-# 초기값 설정
-product = 1  # 곱
-last_number = 0  # 마지막으로 곱해진 숫자
-
-# 1부터 10까지 곱셈 진행
+# 1부터 증가시키며 곱한 값이 n이상이 된 순간, 더해진 숫자를 출력합니다.
 for i in range(1, 11):
-    product *= i
-    if product >= n:  # 곱이 n 이상인 순간
-        last_number = i
-        break
-
-# 결과 출력
-print(last_number)
+	prod *= i
+	if prod >= n:
+		print(i)
+		break
