@@ -8,5 +8,5 @@ for i in range(1, a+1):
     elif i%7<4:
         continue
     
-sort = sort.i
+sort = sorted(i)
 print(sort, end=" ")
