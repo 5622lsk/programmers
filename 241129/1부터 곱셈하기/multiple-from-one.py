@@ -7,4 +7,5 @@ for i in range(1, 11):
     if prod>=n:
         break
     
-print(prod)
+    print(prod)
+    
