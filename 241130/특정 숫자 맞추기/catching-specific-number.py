@@ -4,7 +4,7 @@ while True:
         print("Good")
         break
     elif n < 25:
-        print("Higer")
+        print("Higher")
     else:
         print("Lower")
     
