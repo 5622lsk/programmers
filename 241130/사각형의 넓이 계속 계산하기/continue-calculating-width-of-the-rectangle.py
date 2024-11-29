@@ -4,5 +4,5 @@ w,h,char= input().split()
 w=int(w)
 h=int(h)
 print(w*h)
-    if char = "C":
+    if char == "C":
         break    
