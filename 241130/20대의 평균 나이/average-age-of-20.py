@@ -8,4 +8,5 @@ while True:
     
     sum+=n
     cnt+=1
-    print(round(sum/cnt,2))
+
+print(round(sum/cnt,2))
