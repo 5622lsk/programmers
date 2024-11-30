@@ -1,12 +1,15 @@
-cnt=0
-sum=0
+cnt = 0
+sum = 0
+
 while True:
     n = int(input())
 
-    if n<20 or n>29:
+    if n < 20 or n > 29:  # 20대가 아닌 나이 입력 시 종료
         break
     
-    sum+=n
-    cnt+=1
+    sum += n  # 나이를 합산
+    cnt += 1  # 입력된 나이 개수 증가
+
+# 최종적으로 평균 출력
 if cnt > 0:
-    print(round(sum/cnt,2))
+    print(round(sum / cnt, 2))
