@@ -12,4 +12,4 @@ while True:
 
 # 최종적으로 평균 출력
 if cnt > 0:
-    print(round(sum / cnt, 2))
+    print(f"{sum / cnt:.2f}")
