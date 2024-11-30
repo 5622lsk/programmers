@@ -9,7 +9,4 @@ while True:
     
     sum += n  # 나이를 합산
     cnt += 1  # 입력된 나이 개수 증가
-
-# 최종적으로 평균 출력
-if cnt > 0:
     print(f"{sum / cnt:.2f}")
