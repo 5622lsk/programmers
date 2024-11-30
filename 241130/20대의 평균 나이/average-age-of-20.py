@@ -8,5 +8,5 @@ while True:
     
     sum+=n
     cnt+=1
-
-print(round(sum/cnt,2))
+if cnt > 0:
+    print(round(sum/cnt,2))
