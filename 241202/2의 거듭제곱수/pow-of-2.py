@@ -4,7 +4,7 @@ x=0
 N = int(input())
 
 while True:
-    if n = prod:
+    if N = prod:
         break
     
     prod *=2
