@@ -1,7 +1,7 @@
 prod=1
 x=0
 
-N = int(input())
+n = int(input())
 
 while True:
     if N == prod:
