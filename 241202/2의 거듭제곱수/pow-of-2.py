@@ -1,3 +1,3 @@
 import math
 N = int(input())
-print(int(log2(N))
+print(int(math.log2(N))
