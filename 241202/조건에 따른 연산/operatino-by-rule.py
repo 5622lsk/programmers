@@ -1,10 +1,8 @@
 cnt=0
 n = int(input())
 
-while True:
-    if n>=1000:
-        break
-    elif n % 2 =0:
+while n<1000:
+    if n % 2 == 0:
         n = n*3+1
         cnt+=1
     else:
