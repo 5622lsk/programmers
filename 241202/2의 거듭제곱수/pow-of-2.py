@@ -9,4 +9,4 @@ while True:
     
     prod *=2
     x+=1
-    print(x)
+print(x)
