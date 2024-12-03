@@ -3,5 +3,5 @@ for _ in range(5):
     if i%3==0:
         print(0)
         break
-    else:
-    print(0)
+else:
+print(0)
