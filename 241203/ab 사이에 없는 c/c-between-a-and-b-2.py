@@ -4,6 +4,8 @@ satisfied=True
 for i in range(a,b):
     if i%c==0:
         satisfied=False
-        print("YES")
+
+    if satisfied == False:
+        print("NO")
     else:
-        print("No")
+        print("YES")
