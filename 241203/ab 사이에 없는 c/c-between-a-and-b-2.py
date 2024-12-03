@@ -6,7 +6,7 @@ for i in range(a,b+1):
         satisfied=False
         break
 
-    if satisfied == False:
-        print("NO")
-    else:
-        print("YES")
+if satisfied == False:
+    print("NO")
+else:
+    print("YES")
