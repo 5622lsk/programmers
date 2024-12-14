@@ -2,7 +2,7 @@ n = int(input())
 num=ord("A")
 
 for i in range(n):
-    print("  "*i,end=" ")
+    print("  "*i,end="")
     for j in range(n-i):
         print(chr(num), end=" ")
         num+=1
