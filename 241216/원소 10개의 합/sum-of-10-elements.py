@@ -2,5 +2,5 @@ arr = list(map(int,input().split()))
 sum=0
 
 for i in arr:
-    sum+=int(arr[i])
+    sum+=arr[i]
 print(sum)
