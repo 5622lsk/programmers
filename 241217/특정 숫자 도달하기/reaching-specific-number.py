@@ -7,5 +7,5 @@ for i in arr:
         break
     sum+=i
     cnt+=1
-avg=sum/cnt
+avg=round((sum/cnt),1)
 print(sum,avg)
