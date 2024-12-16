@@ -3,7 +3,7 @@ sum=0
 cnt=0
 
 for i in arr:
-    if i>=260:
+    if i>=250:
         break
     sum+=i
     cnt+=1
