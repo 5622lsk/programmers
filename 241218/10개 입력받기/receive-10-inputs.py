@@ -3,7 +3,6 @@ sum=0
 cnt=0
 result=[]
 for i in arr:
-
     sum+=i
     cnt+=1
     if i == 0:
