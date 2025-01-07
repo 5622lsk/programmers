@@ -1,11 +1,14 @@
-arr = list(map(int, input().split()))  # 입력된 숫자 리스트
-count_arr = [0] * 9  # 각 십의 자리 숫자의 개수를 저장할 배열
+arr = list(map(int, input().split()))
+count_arr = [0] * 10
 
-for i in arr:
-    if i == 0:  # 0이 입력되면 반복 종료
-        break
-    if i >= 10:  # 두 자리 숫자인 경우만 처리
-        count_arr[i // 10 - 1] += 1
-
-for idx, count in enumerate(count_arr, start=1):
-    print(f"{idx} - {count}")
+# 카운팅 배열을 통해 십의 자리수 각각의 빈도 저장, 0이 나오면 for문에서 빠져나오기
+for elem in arr:
+	if elem == 0:
+		break
+	if elem < 10:
+		continue
+	count_arr[elem // 10] += 1
+	
+# 1부터 9까지 나온 횟수를 출력
+for i in range(1, 10):
+	print(f"{i} - {count_arr[i]}")
