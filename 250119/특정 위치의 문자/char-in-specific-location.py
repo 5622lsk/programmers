@@ -1,11 +1,10 @@
-# 초기화된 문자 배열
-letters = ['L', 'E', 'B', 'R', 'O', 'S']
+# 배열을 만들고 문자 a를 입력받습니다.
+word = ['L', 'E', 'B', 'R', 'O', 'S']
+a = input()
 
-# 입력 받기
-input_char = input("문자를 입력하세요: ").strip()
-
-# 배열에서 입력된 문자의 위치 찾기
-if input_char in letters:
-    print(letters.index(input_char))
-else:
+# 같은 것이 없으면 None을, 있다면 그 인덱스를 출력합니다.
+if a not in word:
     print("None")
+# 해당 문자가 리스트에 있는 경우
+else:
+    print(word.index(a))
