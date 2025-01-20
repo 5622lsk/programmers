@@ -1,5 +1,7 @@
 n = int(input())
 a = list(map(int, input().split()))
 
-# Write your code here!
-print(min(a))
+min=min(a)
+cnt=count(min(a))
+
+print(min,cnt)
