@@ -1,7 +1,7 @@
 n = int(input())
 a = list(map(int, input().split()))
 
-min=min(a)
+mi=min(a)
 cnt=count(min(a))
 
-print(min,cnt)
+print(mi,cnt)
